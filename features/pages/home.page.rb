@@ -4,7 +4,7 @@ class HomePage < SitePrism::Page
     element :myIcon, :css, "#ember14 > span:nth-child(2)"
 
     def checkLoginSuccessful
-        expect(userName.text).to eql "Milene Cavalcant"
+        expect(userName.text).to eql "Milene Cavalcante"
         expect(navBarHome.text).to eql "Início"
         expect(myIcon.text).to eql "Eu"
     end
